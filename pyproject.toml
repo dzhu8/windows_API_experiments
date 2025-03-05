@@ -1,0 +1,22 @@
+[project]
+name = "windows-accessibility-monitor"
+version = "0.1.0"
+description = "A tool to monitor application focus using Windows Accessibility API"
+requires-python = ">=3.8"
+dependencies = [
+    "comtypes>=1.1.14"
+]
+
+[tool.poetry]
+name = "windows-accessibility-monitor"
+version = "0.1.0"
+description = "A tool to monitor application focus using Windows Accessibility API"
+authors = ["Daniel Zhu <danielyumengzhu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+comtypes = "^1.1.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
